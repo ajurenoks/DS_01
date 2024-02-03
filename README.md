@@ -1,19 +1,40 @@
-# My GitHub Repository
+# Data Structure: Array - Example Files
 
-## Overview
-This repository contains a collection of sample code files demonstrating various programming concepts in Python and C++. The examples cover array manipulation, memory address handling, and basic object-oriented programming.
+These files are from discussions during the RTU data structure class. The repository contains 9 files:
 
-## Files Description
+1. **example_0_address.py**  
+   Demonstrates how to access array elements in memory using numpy array structure in Python.
 
-### 1. example_0_adress.py
-- **Language**: Python
-- **Description**: This script demonstrates how to use the NumPy library to create and manipulate an array. It prints the value and memory address of specific elements in the array.
+2. **example_0_arr.c**  
+   Shows how to access each array element in memory using C.
 
-### 2. example_0_arr.c
-- **Language**: C++
-- **Description**: A C++ program that defines an integer array and iterates through it to print each element's value and memory address. It showcases basic array handling and memory address printing in C++.
+3. **example_1.py**  
+   Demonstrates how to define and use cookies in Python.
 
-### 3. example_1.py
-- **Language**: Python
-- **Description**: This Python script defines a `Cookie` class and demonstrates basic object-oriented programming concepts. It includes methods for setting and getting a cookie's color and shows how to create and manipulate class instances.
+4. **example_2.py**  
+   Explains how variable addressing in memory works.
 
+5. **example_3.py**  
+   Demonstrates how to reverse an array in Python.  
+   - Time Complexity: O(n). Copying elements to a new array is a linear operation.
+   - Auxiliary Space Complexity: O(n). Additional space is used to store the new array.
+
+6. **example_4.py**  
+   Shows how to reverse an array in Python.  
+   - Time Complexity: O(n). The loop runs through half of the array, so it’s linear with respect to the array size.
+   - Auxiliary Space Complexity: O(1). In-place reversal, meaning it doesn’t use additional space.
+
+7. **example_5.py**  
+   Demonstrates how to reverse an array in Python.  
+   - Time Complexity: O(n). The reverse method typically has linear time complexity.
+   - Auxiliary Space Complexity: O(n).
+
+8. **example_6.py**  
+   Demonstrates how to detect the minimum and maximum value of an array in Python.  
+   - Time Complexity: O(n log n), where n is the number of elements in the array, as we are using a sorting algorithm.
+   - Auxiliary Space: O(1), as we are not using any extra space.
+
+9. **example_7.py**  
+   Demonstrates how to sort elements in an array using traversal through all array elements.  
+   - Complexity Analysis of Selection Sort:
+     - Time Complexity: O(N^2) as there are two nested loops. One loop to select an element of the array one by one = O(N), and another loop to compare that element with every other array element = O(N). Therefore, the overall complexity = O(N) * O(N) = O(N^2).
